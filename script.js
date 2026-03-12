@@ -1,5 +1,5 @@
 var isDate = function (input) {
-  const date = new Date(value);
+  const date = new Date(input);
   return date instanceof Date && !isNaN(date.valueOf());
 };
 
